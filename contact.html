@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Projects in Africa - Home</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+</head>
+<body>
+  <nav class="green darken-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Projects in Africa</a>
+      <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="partners.html">Partners</a></li>
+        <li><a href="prices.html">Prices</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="partners.html">Partners</a></li>
+      <li><a href="prices.html">Prices</a></li>
+      <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+ 
+
+        
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <div class="map" id="map">
+                
+                        </div>
+                        <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -0.6202702, lng: 30.6542587},
+          zoom: 12
+        });
+
+        var marker=new google.maps.Marker({
+position:{
+  lat:-0.6202702,lng:30.6542587
+},
+map:map
+        });
+      }
+    </script>
+
+
+
+      
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col m8 s12 animated bounceInLeft" id="contct">
+           <h4>Send Us an Email</h4>
+          <!-- FORMS -->
+       <form>
+            <div class="input-field">
+              <input type="text" id="name" required>
+              <label class="active" for="name">Your Name</label>
+            </div>
+            <div class="input-field">
+              <input type="email" id="email" class="validate" required>
+              <label class="active" for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <textarea type="email" id="message" class="materialize-textarea"></textarea>
+              <label class="active" for="message">Your Message</label>
+            </div>
+            <input type="submit" value="Submit" id="summit" class="btn green white-text">
+          </form>
+        </div>
+
+          
+    
+    <div class="col m4 s12 animated bounceInRight" id="contct">
+            <h4>Get in Touch</h4>
+        <h5>We are Pamoja Africa</h5>
+        <p>Connect with us by sending us an email from the form on the side or go through our social media accounts and attached</p>
+        <ul class="collection">
+                <li class="collection-item avatar">
+                  <i class="material-icons circle">email</i>
+                  <span class="title">Email</span>
+                  <p>myemail#gmail.com
+                    
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle green">phone</i>
+                  <span class="title">Phone</span>
+                  <p>0786543232
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle red">facebook</i>
+                  <span class="title">Facebook</span>
+                  <p onclick="">Vist our facebook Page
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+              </ul>
+     
+    </div>
+        </div>
+     </div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQtmTn1FGzpqXkaVyeCsCrLL0BFGa0P2s&callback=initMap"></script>
+
+  
+  <footer class="page-footer green lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Home</h5>
+          <ul>  <li><a class="white-text" href="index.html">Home</a></li>
+            <li><a class="white-text" href="prices.html">Prices</li>
+            <li><a class="white-text" href="contact.html">Contact</a></li>
+           
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.facebook.com">facebook</a></li>
+            <li><a class="white-text" href="https://www.facebook.com">twitter</a></li>
+            <li><a class="white-text" href="https://www.facebook.com">instagram</a></li>
+        
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://crycetruly.com">Cryce Truly</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase-database.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDcnd20bMPYCApvKR131VVToLhO2-sQ6PA",
+      authDomain: "projects-in-africa.firebaseapp.com",
+      databaseURL: "https://projects-in-africa.firebaseio.com",
+      projectId: "projects-in-africa",
+      storageBucket: "",
+      messagingSenderId: "248617932767"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <!--  Scripts-->  <script src="js/jquery.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script>
+  
+  $('.slider').slider();
+  $('#summit').on('click',function(e){
+console.log(1);
+  });
+  </script>
+
+  </body>
+</html>
